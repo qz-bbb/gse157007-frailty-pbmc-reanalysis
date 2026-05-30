@@ -1,9 +1,9 @@
-project_id: cs1-paper-factory
+project_id: gse157007-frailty-pbmc-reanalysis
 run_id: run_20260529_095727
 status: conditional
 figures:
 - figure_id: Fig1
-  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig1_dataset_qc.png
+  file_path: D:/cs1/runs/gse157007-frailty-pbmc-reanalysis/run_20260529_095727/agents/06-figures/workspace/figures/Fig1_dataset_qc.png
   caption_id: cap_Fig1
   caption_text: Fig. 1. Dataset provenance and quality control. (A) Donor counts by
     corrected analysis group. (B) Sample provenance by platform series. (C) QC-pass
@@ -26,7 +26,7 @@ figures:
     status: conditional
   evidence_linked_claim_ids: C1;C2
 - figure_id: Fig2
-  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig2_annotation_composition.png
+  file_path: D:/cs1/runs/gse157007-frailty-pbmc-reanalysis/run_20260529_095727/agents/06-figures/workspace/figures/Fig2_annotation_composition.png
   caption_id: cap_Fig2
   caption_text: Fig. 2. Cell annotation support and PBMC composition. (A) Requested
     marker support for annotated cell types. (B) Annotation confidence composition
@@ -50,7 +50,7 @@ figures:
     status: accepted
   evidence_linked_claim_ids: C4;C5
 - figure_id: Fig3
-  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png
+  file_path: D:/cs1/runs/gse157007-frailty-pbmc-reanalysis/run_20260529_095727/agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png
   caption_id: cap_Fig3
   caption_text: Fig. 3. Transcriptional findings and platform-series sensitivity.
     (A) Original mixed-series donor pseudobulk screen summarized by minimum BH-adjusted
@@ -75,7 +75,7 @@ figures:
     status: conditional
   evidence_linked_claim_ids: C6;C7
 - figure_id: Fig4
-  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig4_tcr_diversity.png
+  file_path: D:/cs1/runs/gse157007-frailty-pbmc-reanalysis/run_20260529_095727/agents/06-figures/workspace/figures/Fig4_tcr_diversity.png
   caption_id: cap_Fig4
   caption_text: Fig. 4. Donor-level TCR diversity and expansion summaries. (A) Shannon
     diversity by donor group. (B) Productive contigs versus unique clonotypes by donor.
@@ -95,7 +95,7 @@ figures:
     status: conditional
   evidence_linked_claim_ids: C8
 - figure_id: Fig5
-  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig5_context_sensitivity.png
+  file_path: D:/cs1/runs/gse157007-frailty-pbmc-reanalysis/run_20260529_095727/agents/06-figures/workspace/figures/Fig5_context_sensitivity.png
   caption_id: cap_Fig5
   caption_text: Fig. 5. Context and sensitivity constraints. (A) Group-platform donor
     availability. (B) F-series-only composition sensitivity effect sizes. (C) Secondary

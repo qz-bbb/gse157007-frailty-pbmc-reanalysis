@@ -11,7 +11,7 @@ Status COMPLETE; route to 06-figures with caveats. M0 passed using corrected 02 
 TCR repair note: TCR contig files use separate GEO sample IDs from scRNA matrices; donor-ID mapping was applied and donor-level TCR summaries were regenerated.
 ## Reviewer repair MJR-001 platform sensitivity
 
-Executed with fixed CS2 Python: `D:/cs2/tools/python/python.exe D:\cs1\runs\cs1-paper-factory\run_20260529_095727\agents\05-analysis\workspace\scripts\run_mjr001_platform_sensitivity.py`.
+Executed with fixed CS2 Python: `D:/cs2/tools/python/python.exe D:\cs1\runs\gse157007-frailty-pbmc-reanalysis\run_20260529_095727\agents\05-analysis\workspace\scripts\run_mjr001_platform_sensitivity.py`.
 
 MJR-001 closure result: the original Monocyte_CD14 table contained 500 reported q<0.05 rows. Repaired sensitivity tested 14421 expressed Monocyte_CD14 genes at donor pseudobulk level. Strict F-series-only Mann-Whitney sensitivity (frail F n=5 vs healthy-old F n=3) produced 0 BH-significant genes and 0 overlap with the original significant rows. Platform-adjusted OLS across primary-contrast donors (n=11; model log2CPM ~ frail + OH platform) produced 1190 BH-significant frail-coefficient genes, including 270 overlapping original rows.
 

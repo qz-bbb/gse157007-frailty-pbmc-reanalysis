@@ -4,9 +4,9 @@
 Reviewer MJR-001 asked whether the positive Monocyte_CD14 donor-pseudobulk transcriptional signal survives the documented OH/F platform-series imbalance: frail donors are all F-series, while healthy-old non-frail controls include both F-series and OH-series donors.
 
 ## Executed sensitivity analyses
-- Runtime command: `D:/cs2/tools/python/python.exe D:\cs1\runs\cs1-paper-factory\run_20260529_095727\05-analysis\workspace\scripts\run_mjr001_platform_sensitivity.py`
-- Input h5ad: `D:\cs1\runs\cs1-paper-factory\run_20260529_095727\05-analysis\workspace\processed_data\gse157007_qc_annotated_common_genes.h5ad`
-- Original DE table audited: `D:\cs1\runs\cs1-paper-factory\run_20260529_095727\05-analysis\workspace\statistical_results\de_by_celltype.tsv`
+- Runtime command: `D:/cs2/tools/python/python.exe D:\cs1\runs\gse157007-frailty-pbmc-reanalysis\run_20260529_095727\05-analysis\workspace\scripts\run_mjr001_platform_sensitivity.py`
+- Input h5ad: `D:\cs1\runs\gse157007-frailty-pbmc-reanalysis\run_20260529_095727\05-analysis\workspace\processed_data\gse157007_qc_annotated_common_genes.h5ad`
+- Original DE table audited: `D:\cs1\runs\gse157007-frailty-pbmc-reanalysis\run_20260529_095727\05-analysis\workspace\statistical_results\de_by_celltype.tsv`
 - Replicate unit: donor pseudobulk, not cell.
 - Cell type tested: Monocyte_CD14.
 - F-series-only sensitivity: Mann-Whitney U on donor log2CPM, frail F-series donors (n=5) versus healthy-old non-frail F-series controls (n=3), BH FDR across expressed tested genes.

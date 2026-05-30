@@ -29,7 +29,7 @@ Because this repository intentionally excludes large raw/intermediate matrix fil
 
 ## Repository URL
 
-https://github.com/qz-bbb/cs1-gse157007-frailty-pbmc-reanalysis
+https://github.com/qz-bbb/gse157007-frailty-pbmc-reanalysis
 
 ## License
 
