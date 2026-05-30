@@ -38,7 +38,7 @@
     {
       "id": "READER_PDF",
       "status": "PASS",
-      "evidence": "exists=True size=2016453 manifest_size=2016453 pages=13 text_layer_verified=True quality=single_source_no_recursive_append title_occurrences=1 forbidden_hits=0",
+      "evidence": "exists=True size=2016445 manifest_size=2016445 pages=13 text_layer_verified=True quality=single_source_no_recursive_append title_occurrences=1 forbidden_hits=0 sha256=7e0b6c510810beb6d97a21a4b5bf1f0dc31753c72cc6a26d616f7c8adc91b382",
       "owner": "08-editorial",
       "blocking": true
     },
