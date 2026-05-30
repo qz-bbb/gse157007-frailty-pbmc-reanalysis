@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-05-30T10:11:37Z",
+  "generated_at_utc": "2026-05-30T10:31:10Z",
   "summary": {
     "agent": "10-gate",
     "project_id": "cs1-paper-factory",
     "run_id": "run_20260529_095727",
-    "generated_at_utc": "2026-05-30T10:11:37Z",
+    "generated_at_utc": "2026-05-30T10:31:10Z",
     "final_verdict": "pass",
     "delivery_ready": true,
     "blocking_failed_count": 0,
@@ -38,7 +38,7 @@
     {
       "id": "READER_PDF",
       "status": "PASS",
-      "evidence": "exists=True size=2409952 manifest_size=2409952 pages=86 text_layer_verified=True",
+      "evidence": "exists=True size=2016453 manifest_size=2016453 pages=13 text_layer_verified=True quality=single_source_no_recursive_append title_occurrences=1 forbidden_hits=0",
       "owner": "08-editorial",
       "blocking": true
     },

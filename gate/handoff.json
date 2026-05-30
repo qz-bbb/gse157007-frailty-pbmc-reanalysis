@@ -2,7 +2,7 @@
   "agent": "10-gate",
   "project_id": "cs1-paper-factory",
   "run_id": "run_20260529_095727",
-  "timestamp_utc": "2026-05-30T10:11:37Z",
+  "timestamp_utc": "2026-05-30T10:31:10Z",
   "status": "pass",
   "final_verdict": "pass",
   "delivery_ready": true,
@@ -31,7 +31,7 @@
     "gate_audit_report.md",
     "final_gate_report.md"
   ],
-  "evidence_level_summary": "Final gate verified package manifest, leakage scan, reader PDF manifest, reviewer closure, and pipeline validator.",
+  "evidence_level_summary": "Final gate verified package manifest, leakage scan, reviewer closure, validator, and a single-source non-recursive submission-ready reading PDF.",
   "limitations": [
     "Journal portal metadata/payment/editable-file conversion remains a submission-time author action."
   ],

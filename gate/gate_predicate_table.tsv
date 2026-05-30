@@ -1,7 +1,7 @@
 id	status	owner	blocking	evidence
 PACKAGE_MANIFEST	PASS	08-editorial	True	entries=37 mismatches=0 []
 INTERNAL_LEAKAGE	PASS	08-editorial	True	leaks=0 sample=[]
-READER_PDF	PASS	08-editorial	True	exists=True size=2409952 manifest_size=2409952 pages=86 text_layer_verified=True
+READER_PDF	PASS	08-editorial	True	exists=True size=2016453 manifest_size=2016453 pages=13 text_layer_verified=True quality=single_source_no_recursive_append title_occurrences=1 forbidden_hits=0
 REVIEWER_CLOSURE	PASS	09-reviewer	True	status=pass verdict=pass_minor_accepted_for_gate fatal=0 major=0
 PIPELINE_VALIDATOR	PASS	orchestration	True	VALIDATION PASSED: No issues found.
 PUBLIC_REPOSITORY	PASS	main-orchestration	False	https://github.com/qz-bbb/gse157007-frailty-pbmc-reanalysis

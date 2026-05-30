@@ -22,3 +22,5 @@ ORCID: 0009-0005-6891-1841.
 Correspondence: qz@nefu.edu.cn.
 
 Generated from run_20260529_095727; final delivery gate generated 2026-05-30.
+
+Clean reading PDF: reader_pdf/finished_paper.pdf (single-source ReportLab build; no recursive legacy PDF append).
