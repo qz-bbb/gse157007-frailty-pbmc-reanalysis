@@ -1,0 +1,14 @@
+figure_id	panel_id	source_result	source_script	data_file	statistic	caveat
+Fig1	A	processed_data/input_manifest.tsv	scripts/run_sc_analysis.py	processed_data/tar_file_inventory.tsv	provenance	audit only
+Fig1	B	processed_data/donor_group_lock.tsv	scripts/run_sc_analysis.py	processed_data/sample_file_map.tsv	labels	corrected 02 labels
+Fig1	C	qc/qc_by_sample.tsv	scripts/run_sc_analysis.py	qc/cell_qc_summary.tsv	QC	threshold caveat
+Fig2	A	statistical_results/celltype_marker_support.tsv	scripts/run_sc_analysis.py	processed_data/celltype_counts_by_sample.tsv	annotation	marker-score
+Fig2	D	statistical_results/composition_differential.tsv	scripts/run_sc_analysis.py	sensitivity_checks/composition_sensitivity.tsv	composition stats	small n
+Fig3	A	statistical_results/de_by_celltype.tsv	scripts/run_sc_analysis.py	processed_data/pseudobulk_design.tsv	pseudobulk DE	underpowered
+Fig3	B	statistical_results/neat1_malat1_monocyte_check.tsv	scripts/run_sc_analysis.py	statistical_results/neat1_malat1_monocyte_check.tsv	target genes	targeted
+Fig4	A	statistical_results/clonotype_diversity_by_donor.tsv	scripts/run_sc_analysis.py	statistical_results/tcr_parse_summary.tsv	TCR diversity	descriptive
+Fig5	A	sensitivity_checks/age_context_summary.tsv	scripts/run_sc_analysis.py	sensitivity_checks/group_contrast_sensitivity.tsv	age context	secondary
+Fig5	B	sensitivity_checks/platform_sensitivity.tsv	scripts/run_sc_analysis.py	sensitivity_checks/composition_sensitivity.tsv	platform	OH/F caveat
+Fig3	C	sensitivity_checks/mjr001_f_series_summary.tsv	scripts/run_mjr001_platform_sensitivity.py	sensitivity_checks/mjr001_f_series_de_by_celltype.tsv	F-series-only pseudobulk sensitivity	Monocyte_CD14 mixed-series signal not FDR-significant; exploratory only
+ReviewerRepair	MJR-001A	sensitivity_checks/mjr001_platform_sensitivity_summary.tsv	scripts/run_mjr001_platform_sensitivity.py	sensitivity_checks/mjr001_monocyte_cd14_fseries_only_de.tsv	F-series-only donor pseudobulk DE with BH FDR	strict F-only sensitivity underpowered; no FDR-significant genes
+ReviewerRepair	MJR-001B	statistical_results/mjr001_monocyte_cd14_platform_adjusted_ols.tsv	scripts/run_mjr001_platform_sensitivity.py	sensitivity_checks/mjr001_monocyte_cd14_platform_design_summary.tsv	platform-adjusted OLS frail coefficient with BH FDR	frail all F-series; platform term estimates OH offset among controls; exploratory

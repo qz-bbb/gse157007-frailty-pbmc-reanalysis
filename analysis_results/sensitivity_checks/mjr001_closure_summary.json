@@ -1,0 +1,11 @@
+{
+  "issue_id": "MJR-001",
+  "analysis": "F-series-only donor pseudobulk sensitivity",
+  "input_h5ad": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\05-analysis\\workspace\\processed_data\\gse157007_qc_annotated_common_genes.h5ad",
+  "eligible_frail_donors": 5,
+  "eligible_healthy_old_non_frail_F_donors": 3,
+  "monocyte_cd14_retained_adj_p_lt_0_05": 0,
+  "monocyte_cd14_min_adj_p_value_retained": 0.19237929374939586,
+  "interpretation": "positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity",
+  "runtime_seconds": 73.15
+}

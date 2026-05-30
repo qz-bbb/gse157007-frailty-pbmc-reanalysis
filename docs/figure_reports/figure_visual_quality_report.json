@@ -1,0 +1,101 @@
+{
+  "Fig1_dataset_qc.png": {
+    "path": "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig1_dataset_qc.png",
+    "width_px": 3279,
+    "height_px": 2576,
+    "min_dimension_px": 2576,
+    "format": "PNG",
+    "resolution_status": "pass",
+    "label_presence": "pass",
+    "expected_panel_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "clipping": "not_detected_by_bbox_tight; manual semantic clipping not asserted",
+    "color_accessibility": "uses Okabe-Ito/colorblind-accessible palette in render_figures.py",
+    "readability": "pass; generated at 300 dpi with >=8 pt tick labels in script rcParams",
+    "qc_status": "pass",
+    "verified_utc": "2026-05-29T15:15:10Z"
+  },
+  "Fig2_annotation_composition.png": {
+    "path": "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig2_annotation_composition.png",
+    "width_px": 3485,
+    "height_px": 2564,
+    "min_dimension_px": 2564,
+    "format": "PNG",
+    "resolution_status": "pass",
+    "label_presence": "pass",
+    "expected_panel_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "clipping": "not_detected_by_bbox_tight; manual semantic clipping not asserted",
+    "color_accessibility": "uses Okabe-Ito/colorblind-accessible palette in render_figures.py",
+    "readability": "pass; generated at 300 dpi with >=8 pt tick labels in script rcParams",
+    "qc_status": "pass",
+    "verified_utc": "2026-05-29T15:15:10Z"
+  },
+  "Fig3_transcription_sensitivity.png": {
+    "path": "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png",
+    "width_px": 3426,
+    "height_px": 2564,
+    "min_dimension_px": 2564,
+    "format": "PNG",
+    "resolution_status": "pass",
+    "label_presence": "pass",
+    "expected_panel_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "clipping": "not_detected_by_bbox_tight; manual semantic clipping not asserted",
+    "color_accessibility": "uses Okabe-Ito/colorblind-accessible palette in render_figures.py",
+    "readability": "pass; generated at 300 dpi with >=8 pt tick labels in script rcParams",
+    "qc_status": "pass",
+    "verified_utc": "2026-05-29T15:15:10Z"
+  },
+  "Fig4_tcr_diversity.png": {
+    "path": "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig4_tcr_diversity.png",
+    "width_px": 3217,
+    "height_px": 2095,
+    "min_dimension_px": 2095,
+    "format": "PNG",
+    "resolution_status": "pass",
+    "label_presence": "pass",
+    "expected_panel_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "clipping": "not_detected_by_bbox_tight; manual semantic clipping not asserted",
+    "color_accessibility": "uses Okabe-Ito/colorblind-accessible palette in render_figures.py",
+    "readability": "pass; generated at 300 dpi with >=8 pt tick labels in script rcParams",
+    "qc_status": "pass",
+    "verified_utc": "2026-05-29T15:15:10Z"
+  },
+  "Fig5_context_sensitivity.png": {
+    "path": "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig5_context_sensitivity.png",
+    "width_px": 4187,
+    "height_px": 2626,
+    "min_dimension_px": 2626,
+    "format": "PNG",
+    "resolution_status": "pass",
+    "label_presence": "pass",
+    "expected_panel_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "clipping": "not_detected_by_bbox_tight; manual semantic clipping not asserted",
+    "color_accessibility": "uses Okabe-Ito/colorblind-accessible palette in render_figures.py",
+    "readability": "pass; generated at 300 dpi with >=8 pt tick labels in script rcParams",
+    "qc_status": "pass",
+    "verified_utc": "2026-05-29T15:15:10Z"
+  }
+}

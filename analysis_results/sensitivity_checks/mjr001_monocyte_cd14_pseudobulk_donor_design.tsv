@@ -1,0 +1,12 @@
+donor_id	analysis_group	platform_series	cells	library_size
+F002	frail	F	356	2094315.0
+F004	frail	F	345	1986203.0
+F006	frail	F	386	2772427.0
+F007	frail	F	734	4494760.0
+F008	frail	F	1970	15509949.0
+F020	healthy_old_non_frail	F	959	6457221.0
+F021	healthy_old_non_frail	F	1081	5312362.0
+F023	healthy_old_non_frail	F	657	3143281.0
+OH14	healthy_old_non_frail	OH	1113	3311310.0
+OH15	healthy_old_non_frail	OH	1256	6963375.0
+OH17	healthy_old_non_frail	OH	1237	5081321.0

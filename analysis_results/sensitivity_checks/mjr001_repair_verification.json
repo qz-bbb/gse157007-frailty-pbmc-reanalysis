@@ -1,0 +1,19 @@
+{
+  "agent": "05-analysis",
+  "project_id": "cs1-paper-factory",
+  "run_id": "run_20260529_095727",
+  "timestamp_utc": "2026-05-29T14:10:42+00:00",
+  "issue_id": "MJR-001",
+  "execution_status": "rerun_complete",
+  "fixed_python_executable": "D:/cs2/tools/python/python.exe",
+  "command": "D:/cs2/tools/python/python.exe D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_mjr001_platform_sensitivity.py",
+  "sensitivity_method": "F-series-only donor pseudobulk Mann-Whitney U with BH FDR within cell type",
+  "eligible_frail_donors": 5,
+  "eligible_healthy_old_non_frail_F_donors": 3,
+  "monocyte_cd14_retained_adj_p_lt_0_05": 0,
+  "monocyte_cd14_min_adj_p_value_retained": 0.19237929374939586,
+  "all_celltypes_retained_adj_p_lt_0_05": 0,
+  "runtime_seconds_last_run": 73.15,
+  "interpretation": "positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity",
+  "route": "07-manuscript claim adjustment: remove/soften central positive Monocyte_CD14 claim; preserve only as exploratory mixed-series signal not robust to F-series-only sensitivity."
+}

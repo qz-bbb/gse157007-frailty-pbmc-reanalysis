@@ -1,0 +1,232 @@
+{
+  "agent": "08-editorial",
+  "project_id": "cs1-paper-factory",
+  "run_id": "run_20260529_095727",
+  "primary_target_journal": "Immunity & Ageing",
+  "article_type": "Research article / public-data reanalysis",
+  "status": "conditional_human_required_not_final_submission_ready",
+  "generated_at_utc": "2026-05-29T16:32:55Z",
+  "files": [
+    {
+      "relative_path": "checklists/submission_checklist.md",
+      "size_bytes": 797,
+      "sha256": "044559e474bdd1ee7a5334612d82c54c98229fea144b5380a8f62b15a79e0692",
+      "role": "checklists"
+    },
+    {
+      "relative_path": "cover_letter/cover_letter.md",
+      "size_bytes": 1354,
+      "sha256": "02234635d3b2bd54c69381457750db2682eb82e8656f0e8be5ece5525f52f4e3",
+      "role": "cover_letter"
+    },
+    {
+      "relative_path": "figures/Fig1_dataset_qc.png",
+      "size_bytes": 281459,
+      "sha256": "a1b10d9851da804c128a69ef7563cdcb9f7b1512f93a58a0cf4762161039814b",
+      "role": "figures"
+    },
+    {
+      "relative_path": "figures/Fig2_annotation_composition.png",
+      "size_bytes": 295876,
+      "sha256": "12ea28544728049e7d46519742e3927777a3be42c73243f2dc3fd6daa60f4844",
+      "role": "figures"
+    },
+    {
+      "relative_path": "figures/Fig3_transcription_sensitivity.png",
+      "size_bytes": 343024,
+      "sha256": "06489b359fbf5164bcd06982f0a498292765460ddddee93eff1175d37828419c",
+      "role": "figures"
+    },
+    {
+      "relative_path": "figures/Fig4_tcr_diversity.png",
+      "size_bytes": 223728,
+      "sha256": "4b190c2b97d910bfb12a65fc45118849a52052b4a87c50c834996830c5c4fb05",
+      "role": "figures"
+    },
+    {
+      "relative_path": "figures/Fig5_context_sensitivity.png",
+      "size_bytes": 386393,
+      "sha256": "7a0a2978dcb0b33c65e417571eabb594ab00e29f37a2e313bae81bddfe6134c7",
+      "role": "figures"
+    },
+    {
+      "relative_path": "manuscript/main_manuscript.md",
+      "size_bytes": 23349,
+      "sha256": "af67697e5f543f2385e16c7127fbd58778dd77495ca398e55a540f44aea07e4e",
+      "role": "manuscript"
+    },
+    {
+      "relative_path": "manuscript/main_text_with_fig_legends.md",
+      "size_bytes": 22655,
+      "sha256": "e32ff1ea4b71ced7dec8e72f2d108ce0425276698f493876ed8230fed06db738",
+      "role": "manuscript"
+    },
+    {
+      "relative_path": "manuscript/manuscript_body.md",
+      "size_bytes": 22655,
+      "sha256": "e32ff1ea4b71ced7dec8e72f2d108ce0425276698f493876ed8230fed06db738",
+      "role": "manuscript"
+    },
+    {
+      "relative_path": "manuscript/manuscript_full.md",
+      "size_bytes": 23349,
+      "sha256": "af67697e5f543f2385e16c7127fbd58778dd77495ca398e55a540f44aea07e4e",
+      "role": "manuscript"
+    },
+    {
+      "relative_path": "manuscript/reference_list.bib",
+      "size_bytes": 1551,
+      "sha256": "2402281a48a1feb09dc33529a61015fa9019d79b2901be2459d00e198773e4a1",
+      "role": "manuscript"
+    },
+    {
+      "relative_path": "manuscript/title_page.md",
+      "size_bytes": 679,
+      "sha256": "4336f8e37d9680ede2c5cfa54b178719276463f74a92c37f4029b9992a2f9b25",
+      "role": "manuscript"
+    },
+    {
+      "relative_path": "package_manifest.json",
+      "size_bytes": 8257,
+      "sha256": "1868bdcbea54dce947761071ce179d19c0689c2a4acd257cc745fa1d6d4afeba",
+      "role": "package_manifest.json"
+    },
+    {
+      "relative_path": "statements/code_availability.md",
+      "size_bytes": 265,
+      "sha256": "264235cf301149e6173648282becb8efe15bdc017be2fa15b8f2fa5c91c99ee3",
+      "role": "statements"
+    },
+    {
+      "relative_path": "statements/data_availability.md",
+      "size_bytes": 391,
+      "sha256": "5208bfb0d4d3096e70ad1c450e9837582b27be15fc9bc7fb94f7350ad0e2faca",
+      "role": "statements"
+    },
+    {
+      "relative_path": "statements/ethics.md",
+      "size_bytes": 462,
+      "sha256": "6b38c02fa7f50ebb9c08fd9c3843f50231d4cbf2ab71f7bc47ccc3d90d0dfe01",
+      "role": "statements"
+    },
+    {
+      "relative_path": "statements/funding_conflicts_authors.md",
+      "size_bytes": 550,
+      "sha256": "4cf95bfa73690b4cd9499798f27bbab265e55db5e1b5bff03fdedda27cf0ddf3",
+      "role": "statements"
+    },
+    {
+      "relative_path": "statements/submission_statements.md",
+      "size_bytes": 1612,
+      "sha256": "0cd3c003bc5ac3ae0df5719cab0098b546b1b378e378e1d3a75f137755f04189",
+      "role": "statements"
+    },
+    {
+      "relative_path": "supplementary/abstract_body_consistency.tsv",
+      "size_bytes": 818,
+      "sha256": "3ec657bb0861862f60dab7a8d32da90958f9abb7b85e518aa2a128bcb3a2df08",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/analysis_manifest.yaml",
+      "size_bytes": 2619,
+      "sha256": "22ae0983c2a4188696171c0ecc277f017e4ce44d6d1b6342ffcb438b80648988",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/analysis_report.md",
+      "size_bytes": 1425,
+      "sha256": "33bf1ec8318958c95cfad70ccce1a11d7e479789d857d4696e211ae7e38b26ae",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/composition_differential.tsv",
+      "size_bytes": 1548,
+      "sha256": "98ec7207da6b5a1cb733f8d28e90d3b38efb349175e99e45a9a114bd9aa86db0",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/de_by_celltype.tsv",
+      "size_bytes": 532243,
+      "sha256": "96cb0ae6f362645d686a631bee8b430134931051b7e6b62d193bad3b09f273f2",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/discussion_result_backing.tsv",
+      "size_bytes": 780,
+      "sha256": "facffee9d3c93a48502dc8b3c10cc81c1deea7313b0a753febf6ec5c68556172",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/evidence_chain.tsv",
+      "size_bytes": 842,
+      "sha256": "074cd43971154daacf07f5200415a011b505eebaff80280e45a77267bdc737c8",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/figure_callout_contract.yaml",
+      "size_bytes": 4530,
+      "sha256": "b1057dfd137432d1a5a0fcefbcdd1b29e044a91d2eaf9288e0ca74d333be4c65",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/figure_integrity_report.md",
+      "size_bytes": 1649,
+      "sha256": "3d9b27cdbd5d06f04157f502c85ca2bc65bca58b62d357df851f59152abd7949",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/figure_manifest.yaml",
+      "size_bytes": 14380,
+      "sha256": "9f4f980e836adf847229cf537288c81ebe1b9b3d71b8c386a04c122a75b136d0",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/mjr001_f_series_summary.tsv",
+      "size_bytes": 579,
+      "sha256": "eb49797387a1b5b7ca31cd8761000cace16289cb0023159e3571a07b182a131a",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/platform_sensitivity.tsv",
+      "size_bytes": 193,
+      "sha256": "c1494bc955943cfe2ab4165a99bb2bfe700eb881e014b881eff0f12cde2dd3c5",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/reference_list.bib",
+      "size_bytes": 1551,
+      "sha256": "2402281a48a1feb09dc33529a61015fa9019d79b2901be2459d00e198773e4a1",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/reference_verification.tsv",
+      "size_bytes": 1359,
+      "sha256": "89f404f73e11bf6e9fad261a58aa118f4488b30ab3ab4d26e06cf84fcd46ee41",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/section_claim_map.tsv",
+      "size_bytes": 1754,
+      "sha256": "9324b467bcc1da6aeae628e1f8f8bbeaba6042ddd39cd139ffaa49cf637b543b",
+      "role": "supplementary"
+    },
+    {
+      "relative_path": "supplementary/tcr_parse_summary.tsv",
+      "size_bytes": 2970,
+      "sha256": "1ea804cc967feee8273e64e93567cb88bc9115e9d0e1af6967441bb28b3363b8",
+      "role": "supplementary"
+    }
+  ],
+  "unresolved_administrative_requirements": [
+    "corresponding author email not present in supplied evidence",
+    "ORCID not present in supplied evidence; portal entry may be required",
+    "repository/review-archive URL for derived artifacts/code not present; current wording is upon request plus deposit-if-required"
+  ],
+  "verification": {
+    "bracketed_to_be_completed_placeholders": 0,
+    "local_cs1_cs2_paths_in_submission_facing_scan": 0,
+    "stale_author_admin_unavailable_text": 0,
+    "reader_pdf_text_layer_verified": true
+  }
+}

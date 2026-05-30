@@ -1,0 +1,5 @@
+cell_type	gene	n_frail	n_healthy_old_non_frail	effect_diff	p_value	test	adj_p_value_bh
+Monocyte_CD14	NEAT1	5	6	-0.39194002151489293	0.17748917748917747	targeted donor pseudobulk	0.35497835497835495
+Monocyte_CD14	MALAT1	5	6	-0.24973713556925325	0.08225108225108226	targeted donor pseudobulk	0.329004329004329
+Monocyte_FCGR3A	NEAT1	4	6	-0.17171231905619244	0.47619047619047616	targeted donor pseudobulk	0.6349206349206349
+Monocyte_FCGR3A	MALAT1	4	6	0.0027174949645996094	0.7619047619047619	targeted donor pseudobulk	0.7619047619047619

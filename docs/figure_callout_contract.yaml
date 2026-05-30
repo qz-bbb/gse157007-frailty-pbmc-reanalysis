@@ -1,0 +1,119 @@
+project_id: cs1-paper-factory
+run_id: run_20260529_095727
+status: conditional
+figures:
+- figure_id: Fig1
+  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig1_dataset_qc.png
+  caption_id: cap_Fig1
+  caption_text: Fig. 1. Dataset provenance and quality control. (A) Donor counts by
+    corrected analysis group. (B) Sample provenance by platform series. (C) QC-pass
+    cells by donor. (D) Per-donor QC diagnostic showing median genes and mitochondrial
+    percentage, with point size proportional to QC-pass cells.
+  intended_manuscript_callout_location: Results; order follows evidence chain from
+    dataset/QC to sensitivity constraints
+  panel_breakdown:
+  - panel_id: A
+    title: Donor groups locked for analysis
+    status: accepted
+  - panel_id: B
+    title: Sample provenance by platform series
+    status: accepted
+  - panel_id: C
+    title: QC-pass cells per donor
+    status: accepted
+  - panel_id: D
+    title: Per-donor QC diagnostic
+    status: conditional
+  evidence_linked_claim_ids: C1;C2
+- figure_id: Fig2
+  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig2_annotation_composition.png
+  caption_id: cap_Fig2
+  caption_text: Fig. 2. Cell annotation support and PBMC composition. (A) Requested
+    marker support for annotated cell types. (B) Annotation confidence composition
+    by cell type. (C) Mean donor-level fractions for frail and healthy-old/non-frail
+    groups. (D) Donor-level composition effect sizes with BH-adjusted p-values; no
+    composition test is presented as BH-significant.
+  intended_manuscript_callout_location: Results; order follows evidence chain from
+    dataset/QC to sensitivity constraints
+  panel_breakdown:
+  - panel_id: A
+    title: Marker support by annotated cell type
+    status: accepted
+  - panel_id: B
+    title: Annotation confidence composition
+    status: conditional
+  - panel_id: C
+    title: Donor-level cell-type fractions
+    status: conditional
+  - panel_id: D
+    title: Composition effect sizes
+    status: accepted
+  evidence_linked_claim_ids: C4;C5
+- figure_id: Fig3
+  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png
+  caption_id: cap_Fig3
+  caption_text: Fig. 3. Transcriptional findings and platform-series sensitivity.
+    (A) Original mixed-series donor pseudobulk screen summarized by minimum BH-adjusted
+    p-value per cell type. (B) Targeted NEAT1/MALAT1 monocyte checks. (C) F-series-only
+    sensitivity summarized by retained minimum BH-adjusted p-value; retained q<0.05
+    rows were absent. (D) MJR-001 repair summary. The Monocyte_CD14 signal must be
+    described only as exploratory.
+  intended_manuscript_callout_location: Results; order follows evidence chain from
+    dataset/QC to sensitivity constraints
+  panel_breakdown:
+  - panel_id: A
+    title: Original mixed-series pseudobulk screen
+    status: accepted
+  - panel_id: B
+    title: Targeted NEAT1/MALAT1 checks
+    status: accepted
+  - panel_id: C
+    title: F-series-only sensitivity
+    status: accepted
+  - panel_id: D
+    title: MJR-001 repair summary
+    status: conditional
+  evidence_linked_claim_ids: C6;C7
+- figure_id: Fig4
+  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig4_tcr_diversity.png
+  caption_id: cap_Fig4
+  caption_text: Fig. 4. Donor-level TCR diversity and expansion summaries. (A) Shannon
+    diversity by donor group. (B) Productive contigs versus unique clonotypes by donor.
+    (C) Maximum expanded clonotype frequency per donor. TCR results are descriptive
+    and donor-level.
+  intended_manuscript_callout_location: Results; order follows evidence chain from
+    dataset/QC to sensitivity constraints
+  panel_breakdown:
+  - panel_id: A
+    title: Donor TCR diversity
+    status: accepted
+  - panel_id: B
+    title: TCR repertoire size by donor
+    status: conditional
+  - panel_id: C
+    title: Top expanded clonotype per donor
+    status: conditional
+  evidence_linked_claim_ids: C8
+- figure_id: Fig5
+  file_path: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig5_context_sensitivity.png
+  caption_id: cap_Fig5
+  caption_text: Fig. 5. Context and sensitivity constraints. (A) Group-platform donor
+    availability. (B) F-series-only composition sensitivity effect sizes. (C) Secondary
+    contrast sensitivity ranked by BH-adjusted p-value. (D) Donor counts and median
+    total cell context by analysis group.
+  intended_manuscript_callout_location: Results; order follows evidence chain from
+    dataset/QC to sensitivity constraints
+  panel_breakdown:
+  - panel_id: A
+    title: Group-platform availability diagnostic
+    status: accepted
+  - panel_id: B
+    title: F-series composition sensitivity
+    status: accepted
+  - panel_id: C
+    title: Secondary contrast sensitivity
+    status: conditional
+  - panel_id: D
+    title: Age/context donor and cell-count summary
+    status: conditional
+  evidence_linked_claim_ids: C9

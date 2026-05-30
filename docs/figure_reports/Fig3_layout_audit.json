@@ -1,0 +1,18 @@
+{
+  "figure_id": "Fig3",
+  "file": "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png",
+  "png_only": true,
+  "dimensions_px": [
+    3426,
+    2564
+  ],
+  "panel_labels_expected": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "panel_count": 4,
+  "visual_qc_status": "pass",
+  "verified_utc": "2026-05-29T15:15:10Z"
+}

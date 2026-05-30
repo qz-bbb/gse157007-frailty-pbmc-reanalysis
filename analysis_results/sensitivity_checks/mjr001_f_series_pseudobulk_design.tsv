@@ -1,0 +1,10 @@
+cell_type	status	n_donors	n_frail	n_healthy_old_non_frail_F	min_cells_per_donor	genes_tested	genes_adj_p_lt_0_05
+B	tested_F_series_only	8	5	3	172	11761	0
+CD4_T	tested_F_series_only	8	5	3	737	14363	0
+CD8_T	tested_F_series_only	8	5	3	59	10884	0
+DC	tested_F_series_only	8	5	3	90	12092	0
+Monocyte_CD14	tested_F_series_only	8	5	3	345	13580	0
+Monocyte_FCGR3A	tested_F_series_only	7	4	3	29	9809	0
+NK	tested_F_series_only	8	5	3	443	13825	0
+Plasma	tested_F_series_only	8	5	3	36	9053	0
+Platelet	tested_F_series_only	6	3	3	59	10800	0

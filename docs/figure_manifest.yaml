@@ -1,0 +1,306 @@
+agent: 06-figures
+project_id: cs1-paper-factory
+run_id: run_20260529_095727
+status: conditional
+created_utc: '2026-05-29T15:15:10Z'
+upstream_handoff: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/handoff.json
+architect_figure_plan: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/03-architect/workspace/figure_plan.tsv
+analysis_figure_data_map: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/figure_data_map.tsv
+figures:
+- figure_id: Fig1
+  title: Dataset provenance and quality control
+  output_png: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig1_dataset_qc.png
+  script: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_scripts/render_figures.py
+  panels:
+  - panel_id: A
+    panel_title: Donor groups locked for analysis
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/donor_group_lock.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/donor_group_lock.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C1
+    plot_type: bar chart
+    statistics_used: provenance labels/counts
+    status: accepted
+    limitations: []
+  - panel_id: B
+    panel_title: Sample provenance by platform series
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/sample_file_map.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/sample_file_map.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C1
+    plot_type: stacked bar chart
+    statistics_used: labels/platform series
+    status: accepted
+    limitations: []
+  - panel_id: C
+    panel_title: QC-pass cells per donor
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/qc/qc_by_sample.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/qc/cell_qc_summary.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C2
+    plot_type: bar chart
+    statistics_used: QC-pass cell counts
+    status: accepted
+    limitations: []
+  - panel_id: D
+    panel_title: Per-donor QC diagnostic
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/qc/qc_by_sample.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/qc/qc_by_sample.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C2
+    plot_type: scatter plot
+    statistics_used: median genes/mitochondrial percentage
+    status: conditional
+    limitations: []
+  caption_id: cap_Fig1
+  visual_qc_status: pass
+  limitations: []
+- figure_id: Fig2
+  title: Cell annotation support and PBMC composition
+  output_png: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig2_annotation_composition.png
+  script: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_scripts/render_figures.py
+  panels:
+  - panel_id: A
+    panel_title: Marker support by annotated cell type
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/celltype_counts_by_sample.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/celltype_marker_support.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C4
+    plot_type: horizontal bar chart
+    statistics_used: present marker count
+    status: accepted
+    limitations: []
+  - panel_id: B
+    panel_title: Annotation confidence composition
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/annotation_confidence.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/annotation_confidence.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C4
+    plot_type: stacked horizontal bar chart
+    statistics_used: annotation confidence counts
+    status: conditional
+    limitations: []
+  - panel_id: C
+    panel_title: Donor-level cell-type fractions
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/celltype_fraction_by_donor.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/celltype_fraction_by_donor.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C5
+    plot_type: dot plot
+    statistics_used: mean donor fractions by group
+    status: conditional
+    limitations: []
+  - panel_id: D
+    panel_title: Composition effect sizes
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/composition_sensitivity.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/composition_differential.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C5
+    plot_type: effect-size bar chart
+    statistics_used: Mann-Whitney U donor fractions; BH q-values
+    status: accepted
+    limitations: []
+  caption_id: cap_Fig2
+  visual_qc_status: pass
+  limitations: []
+- figure_id: Fig3
+  title: Transcriptional findings and platform-series sensitivity
+  output_png: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png
+  script: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_scripts/render_figures.py
+  panels:
+  - panel_id: A
+    panel_title: Original mixed-series pseudobulk screen
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/pseudobulk_design.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/de_by_celltype.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C6
+    plot_type: summary bar chart
+    statistics_used: minimum BH q per cell type from donor pseudobulk
+    status: accepted
+    limitations: []
+  - panel_id: B
+    panel_title: Targeted NEAT1/MALAT1 checks
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/neat1_malat1_monocyte_check.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/neat1_malat1_monocyte_check.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C6
+    plot_type: bar chart
+    statistics_used: targeted donor pseudobulk; BH q-values
+    status: accepted
+    limitations: []
+  - panel_id: C
+    panel_title: F-series-only sensitivity
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_de_by_celltype.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_summary.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_mjr001_platform_sensitivity.py
+    claim_id_or_evidence_id: C7
+    plot_type: summary bar chart
+    statistics_used: minimum retained BH q; retained q<0.05 rows
+    status: accepted
+    limitations: []
+  - panel_id: D
+    panel_title: MJR-001 repair summary
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_closure_summary.json
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_closure_summary.json
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C6;C7
+    plot_type: text summary panel
+    statistics_used: frail n=5 vs healthy-old/non-frail F n=3; retained q<0.05 rows=0
+    status: conditional
+    limitations: []
+  caption_id: cap_Fig3
+  visual_qc_status: pass
+  limitations:
+  - Generated from conditional 05-analysis handoff; central Monocyte_CD14 positive
+    claim must remain exploratory.
+- figure_id: Fig4
+  title: Donor-level TCR diversity and expansion summaries
+  output_png: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig4_tcr_diversity.png
+  script: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_scripts/render_figures.py
+  panels:
+  - panel_id: A
+    panel_title: Donor TCR diversity
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/tcr_parse_summary.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/clonotype_diversity_by_donor.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C8
+    plot_type: box plot
+    statistics_used: descriptive Shannon diversity
+    status: accepted
+    limitations: []
+  - panel_id: B
+    panel_title: TCR repertoire size by donor
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/clonotype_diversity_by_donor.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/clonotype_diversity_by_donor.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C8
+    plot_type: scatter plot
+    statistics_used: productive contigs and unique clonotypes
+    status: conditional
+    limitations: []
+  - panel_id: C
+    panel_title: Top expanded clonotype per donor
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/expanded_clonotypes.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/expanded_clonotypes.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C8
+    plot_type: horizontal bar chart
+    statistics_used: maximum expanded clonotype frequency
+    status: conditional
+    limitations: []
+  caption_id: cap_Fig4
+  visual_qc_status: pass
+  limitations: []
+- figure_id: Fig5
+  title: Context and sensitivity constraints
+  output_png: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figures/Fig5_context_sensitivity.png
+  script: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_scripts/render_figures.py
+  panels:
+  - panel_id: A
+    panel_title: Group-platform availability diagnostic
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/group_contrast_sensitivity.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/age_context_summary.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C9
+    plot_type: bar chart
+    statistics_used: donors and median total cells
+    status: accepted
+    limitations: []
+  - panel_id: B
+    panel_title: F-series composition sensitivity
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/composition_sensitivity.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/platform_sensitivity.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C9
+    plot_type: effect-size bar chart
+    statistics_used: F-series-only donor fractions; BH q-values
+    status: accepted
+    limitations: []
+  - panel_id: C
+    panel_title: Secondary contrast sensitivity
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/group_contrast_sensitivity.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/group_contrast_sensitivity.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C9
+    plot_type: ranked q-value bar chart
+    statistics_used: BH q-values by secondary contrast
+    status: conditional
+    limitations: []
+  - panel_id: D
+    panel_title: Age/context donor and cell-count summary
+    source_data: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/age_context_summary.tsv
+    source_result: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/age_context_summary.tsv
+    source_script_or_analysis_manifest_entry: D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py
+    claim_id_or_evidence_id: C9
+    plot_type: dual-axis bar/line chart
+    statistics_used: donor counts and median total cells
+    status: conditional
+    limitations: []
+  caption_id: cap_Fig5
+  visual_qc_status: pass
+  limitations: []
+discrepancies:
+- panel:
+  - Fig1
+  - D
+  issue: present_in_03_figure_plan_absent_from_05_figure_data_map
+  action: rendered only if concrete 05-analysis source file existed; status conditional
+    otherwise
+- panel:
+  - Fig2
+  - B
+  issue: present_in_03_figure_plan_absent_from_05_figure_data_map
+  action: rendered only if concrete 05-analysis source file existed; status conditional
+    otherwise
+- panel:
+  - Fig2
+  - C
+  issue: present_in_03_figure_plan_absent_from_05_figure_data_map
+  action: rendered only if concrete 05-analysis source file existed; status conditional
+    otherwise
+- panel:
+  - Fig4
+  - B
+  issue: present_in_03_figure_plan_absent_from_05_figure_data_map
+  action: rendered only if concrete 05-analysis source file existed; status conditional
+    otherwise
+- panel:
+  - Fig3
+  - D
+  issue: rendered_panel_not_explicit_in_03_figure_plan
+  action: marked conditional; generated from existing 05-analysis files to complete
+    layout without unsupported statistics
+- panel:
+  - Fig4
+  - C
+  issue: rendered_panel_not_explicit_in_03_figure_plan
+  action: marked conditional; generated from existing 05-analysis files to complete
+    layout without unsupported statistics
+- panel:
+  - Fig5
+  - C
+  issue: rendered_panel_not_explicit_in_03_figure_plan
+  action: marked conditional; generated from existing 05-analysis files to complete
+    layout without unsupported statistics
+- panel:
+  - Fig5
+  - D
+  issue: rendered_panel_not_explicit_in_03_figure_plan
+  action: marked conditional; generated from existing 05-analysis files to complete
+    layout without unsupported statistics
+global_limitations:
+- Only five main figures were supported by the current 03/05 artifacts, below the
+  profile target of seven main figures.
+- 05-analysis handoff is conditional after MJR-001 repair; transcriptional positive
+  claims require softening/removal as central claims.
+- Panels not explicitly mapped in 05 figure_data_map are marked conditional even where
+  plotted from existing 05-analysis files.
+limitations:
+- Package is conditional because 05-analysis handoff is conditional after MJR-001
+  repair.
+- Fewer than seven main figures are supported by existing 03/05 evidence contracts;
+  no unsupported figures were fabricated.
+- Panels marked conditional are descriptive/contextual or derive from 05-analysis
+  outputs not identically represented in both 03-architect and 05-analysis maps.
+figure_count: 5
+panel_count: 19

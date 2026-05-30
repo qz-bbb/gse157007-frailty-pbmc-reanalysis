@@ -1,0 +1,19 @@
+cell_type	gene	n_frail	n_healthy_old_non_frail_F	log2cpm_difference	p_value	adj_p_value_bh	test
+B	NEAT1	5	3	0.13921702788023715	0.7857142857142857	0.8895635073436383	targeted F-series-only donor pseudobulk
+B	MALAT1	5	3	-0.46442629419059855	0.5714285714285714	0.7477271282344713	targeted F-series-only donor pseudobulk
+CD4_T	NEAT1	5	3	0.4271656403956481	0.25	0.6035888384602455	targeted F-series-only donor pseudobulk
+CD4_T	MALAT1	5	3	-0.6787325253286998	0.5714285714285714	0.7651187257787425	targeted F-series-only donor pseudobulk
+CD8_T	NEAT1	5	3	-0.06422965529029057	0.7857142857142857	0.9234115414873432	targeted F-series-only donor pseudobulk
+CD8_T	MALAT1	5	3	-0.9535927429913897	0.25	0.60279131590607	targeted F-series-only donor pseudobulk
+DC	NEAT1	5	3	-0.6938101270838306	0.03571428571428571	0.2681536480813877	targeted F-series-only donor pseudobulk
+DC	MALAT1	5	3	-0.1945295803355247	0.5714285714285714	0.7629984856133266	targeted F-series-only donor pseudobulk
+Monocyte_CD14	NEAT1	5	3	-0.6716200474497587	0.03571428571428571	0.19237929374939586	targeted F-series-only donor pseudobulk
+Monocyte_CD14	MALAT1	5	3	-0.03764855589713534	0.5714285714285714	0.7189179173614971	targeted F-series-only donor pseudobulk
+Monocyte_FCGR3A	NEAT1	4	3	-0.3805840851394464	0.22857142857142856	0.6557640078552627	targeted F-series-only donor pseudobulk
+Monocyte_FCGR3A	MALAT1	4	3	0.008581729690162021	0.6285714285714286	0.8695046034208352	targeted F-series-only donor pseudobulk
+NK	NEAT1	5	3	-0.3685895932090757	0.25	0.5174801617008534	targeted F-series-only donor pseudobulk
+NK	MALAT1	5	3	-0.8485149396330058	0.39285714285714285	0.6367233294255569	targeted F-series-only donor pseudobulk
+Plasma	NEAT1	5	3	0.9166364712760782	0.03571428571428571	0.6425130048625771	targeted F-series-only donor pseudobulk
+Plasma	MALAT1	5	3	0.06005243549352279	0.7857142857142857	0.9745268432074844	targeted F-series-only donor pseudobulk
+Platelet	NEAT1	3	3	0.8642409737194328	0.7	0.9489142713693987	targeted F-series-only donor pseudobulk
+Platelet	MALAT1	3	3	-0.2670108895599448	0.7	0.9489142713693987	targeted F-series-only donor pseudobulk

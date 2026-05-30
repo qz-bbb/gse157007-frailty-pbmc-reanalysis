@@ -1,0 +1,15 @@
+{
+  "issue_id": "MJR-001",
+  "cell_type": "Monocyte_CD14",
+  "original_monocyte_cd14_fdr_significant_reported_rows": 500,
+  "expressed_genes_tested": 14421,
+  "fseries_only_n_frail": 5,
+  "fseries_only_n_control": 3,
+  "fseries_only_fdr_significant_genes": 0,
+  "fseries_only_overlap_with_original_significant": 0,
+  "platform_adjusted_ols_n_donors": 11,
+  "platform_adjusted_ols_fdr_significant_group_genes": 1190,
+  "platform_adjusted_ols_overlap_with_original_significant": 270,
+  "closure_interpretation": "some_signal_persists_but_requires_conservative_platform_sensitive_claiming",
+  "recommended_claim_action": "claim only platform-sensitivity-qualified subset and keep exploratory"
+}

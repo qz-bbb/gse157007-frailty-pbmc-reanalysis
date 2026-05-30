@@ -1,0 +1,123 @@
+agent: 05-analysis
+project_id: cs1-paper-factory
+run_id: run_20260529_095727
+status: complete
+random_seed: 20260529
+command: "D:/cs2/tools/python/python.exe D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_sc_analysis.py"
+replicate_unit: donor
+software_versions:
+  python: "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]"
+  scanpy: "1.11.5"
+  anndata: "0.11.4"
+  numpy: "2.2.6"
+  pandas: "2.3.3"
+modules:
+  - id: M0
+    status: COMPLETE
+  - id: M1
+    status: COMPLETE
+  - id: M2
+    status: COMPLETE
+  - id: M3
+    status: COMPLETE
+  - id: M4
+    status: COMPLETE
+  - id: M5
+    status: COMPLETE
+  - id: M6
+    status: COMPLETE
+  - id: M7
+    status: SKIPPED_WITH_RATIONALE
+  - id: M8
+    status: SKIPPED_WITH_RATIONALE
+
+
+mjr001_repair:
+  status: COMPLETE
+  timestamp_utc: "2026-05-29T14:10:42+00:00"
+  issue_id: MJR-001
+  command: "D:/cs2/tools/python/python.exe D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_mjr001_platform_sensitivity.py"
+  input:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/gse157007_qc_annotated_common_genes.h5ad"
+  outputs:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/repair_report.md"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/logs/mjr001_platform_sensitivity.log"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_donor_set.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_pseudobulk_design.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_de_by_celltype.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/mjr001_f_series_de_by_celltype.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_neat1_malat1.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_f_series_summary.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_closure_summary.json"
+  software_versions:
+    python_executable: "D:/cs2/tools/python/python.exe"
+    python: "3.10.11"
+    pandas: "2.3.3"
+    numpy: "2.2.6"
+    scipy: "1.15.3"
+    anndata: "0.11.4"
+  parameters:
+    replicate_unit: donor
+    subset: "platform_series == F and analysis_group in [frail, healthy_old_non_frail]"
+    min_cells_per_donor_celltype: 20
+    normalization: "donor pseudobulk log2(CPM+1)"
+    test: "two-sided Mann-Whitney U"
+    multiple_testing: "Benjamini-Hochberg FDR within cell type"
+  result_summary:
+    eligible_frail_donors: 5
+    eligible_healthy_old_non_frail_F_donors: 3
+    monocyte_cd14_retained_adj_p_lt_0_05: 0
+    monocyte_cd14_min_adj_p_value_retained: 0.1923792937493958
+    conclusion: "Original positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity; retain only as exploratory."
+  verification_output:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_repair_verification.json"
+  runtime_seconds_last_run: 73.15
+reviewer_repair_mjr001:
+  status: complete
+  issue_id: MJR-001
+  command: "D:/cs2/tools/python/python.exe D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/run_mjr001_platform_sensitivity.py"
+  random_seed: 20260529
+  inputs:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/processed_data/gse157007_qc_annotated_common_genes.h5ad"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/de_by_celltype.tsv"
+  outputs:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_platform_sensitivity_summary.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr001_monocyte_cd14_fseries_only_de.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/mjr001_monocyte_cd14_platform_adjusted_ols.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/repair_report.md"
+  parameters:
+    cell_type: Monocyte_CD14
+    replicate_unit: donor_pseudobulk
+    fseries_only_test: Mann-Whitney U two-sided with BH FDR
+    platform_adjusted_test: OLS log2CPM ~ frail_indicator + OH_platform_indicator with BH FDR for group coefficient
+  status_summary:
+    original_monocyte_cd14_fdr_significant_reported_rows: 500
+    expressed_genes_tested: 14421
+    fseries_only_fdr_significant_genes: 0
+    platform_adjusted_ols_fdr_significant_group_genes: 1190
+  interpretation: "Broad original Monocyte_CD14 positive claim is platform-sensitive; strict F-series-only sensitivity does not support central robust claim. Route to 07-manuscript for softening/removal of central positive pseudobulk claim."
+
+
+mjr005_figure_contract_repair:
+  status: COMPLETE
+  issue_id: MJR-005
+  timestamp_utc: "2026-05-29T15:28:10Z"
+  command: "python3 D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/scripts/repair_mjr005_figure_contract.py"
+  random_seed: null
+  inputs:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/panel_data_map.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_callout_contract.yaml"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/06-figures/workspace/figure_manifest.yaml"
+  outputs:
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/figure_data_map.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/statistical_results/mjr005_figure_panel_contract_repair.tsv"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/sensitivity_checks/mjr005_figure_contract_summary.json"
+    - "D:/cs1/runs/cs1-paper-factory/run_20260529_095727/agents/05-analysis/workspace/logs/mjr005_figure_contract_repair.log"
+  parameters:
+    retained_panel_source: "06-figures panel_data_map.tsv"
+    acceptance_rule: "source_result, source_data, source_script, and output_png all exist on disk"
+  result_summary:
+    panels_checked: 19
+    panels_accepted_by_05_source_audit: 19
+    panels_blocked_missing_source: 0
+  downstream_requirement: "06-figures must propagate accepted statuses into figure-side maps/contracts and regenerate figure package artifacts."

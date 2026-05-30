@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "GSE157007 frailty PBMC single-cell reanalysis artifacts"
+authors:
+  - family-names: Qiu
+    given-names: Zhun
+    orcid: "https://orcid.org/0009-0005-6891-1841"
+repository-code: "https://github.com/qz-bbb/cs1-gse157007-frailty-pbmc-reanalysis"
+message: "If you use these artifacts, cite the associated manuscript once available."

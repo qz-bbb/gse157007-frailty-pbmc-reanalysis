@@ -1,0 +1,20 @@
+figure_id	panel_id	claim_id	evidence source	required analysis output	plot type	expected file path	downstream owner
+Fig1	A	C1	02/05 donor label lock	processed_data/donor_group_lock.tsv	bar chart	agents/06-figures/workspace/figures/Fig1_dataset_qc.png	06-figures
+Fig1	B	C1	05 sample provenance	processed_data/sample_file_map.tsv	stacked bar	agents/06-figures/workspace/figures/Fig1_dataset_qc.png	06-figures
+Fig1	C	C2	05 QC summary	qc/cell_qc_summary.tsv	bar chart	agents/06-figures/workspace/figures/Fig1_dataset_qc.png	06-figures
+Fig1	D	C2	05 per-donor QC	qc/qc_by_sample.tsv	diagnostic plot	agents/06-figures/workspace/figures/Fig1_dataset_qc.png	06-figures
+Fig2	A	C3	05 marker support	statistical_results/celltype_marker_support.tsv	heatmap/table	agents/06-figures/workspace/figures/Fig2_annotation_composition.png	06-figures
+Fig2	B	C3	05 annotation confidence	statistical_results/annotation_confidence.tsv	bar chart	agents/06-figures/workspace/figures/Fig2_annotation_composition.png	06-figures
+Fig2	C	C4	05 donor fractions	processed_data/celltype_fraction_by_donor.tsv	box/dot plot	agents/06-figures/workspace/figures/Fig2_annotation_composition.png	06-figures
+Fig2	D	C4	05 composition differential	statistical_results/composition_differential.tsv	effect/FDR plot	agents/06-figures/workspace/figures/Fig2_annotation_composition.png	06-figures
+Fig3	A	C5	05 mixed-series pseudobulk	statistical_results/de_by_celltype.tsv	summary plot	agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png	06-figures
+Fig3	B	C5	05 NEAT1/MALAT1 check	statistical_results/neat1_malat1_monocyte_check.tsv	target-gene summary	agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png	06-figures
+Fig3	C	C6	05 MJR-001 sensitivity	sensitivity_checks/mjr001_f_series_summary.tsv	sensitivity plot	agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png	06-figures
+Fig3	D	C6	05 F-series DE table	sensitivity_checks/mjr001_f_series_de_by_celltype.tsv	FDR distribution	agents/06-figures/workspace/figures/Fig3_transcription_sensitivity.png	06-figures
+Fig4	A	C7	05 TCR parse	statistical_results/tcr_parse_summary.tsv	bar chart	agents/06-figures/workspace/figures/Fig4_tcr_diversity.png	06-figures
+Fig4	B	C7	05 clonotype diversity	statistical_results/clonotype_diversity_by_donor.tsv	donor dot plot	agents/06-figures/workspace/figures/Fig4_tcr_diversity.png	06-figures
+Fig4	C	C7	05 expanded clonotypes	statistical_results/expanded_clonotypes.tsv	rank plot	agents/06-figures/workspace/figures/Fig4_tcr_diversity.png	06-figures
+Fig5	A	C8	05 age context	sensitivity_checks/age_context_summary.tsv	context plot	agents/06-figures/workspace/figures/Fig5_context_sensitivity.png	06-figures
+Fig5	B	C4	05 composition sensitivity	sensitivity_checks/composition_sensitivity.tsv	sensitivity plot	agents/06-figures/workspace/figures/Fig5_context_sensitivity.png	06-figures
+Fig5	C	C6	05 platform sensitivity	sensitivity_checks/platform_sensitivity.tsv	platform summary	agents/06-figures/workspace/figures/Fig5_context_sensitivity.png	06-figures
+Fig5	D	C9	09 editor-risk context	09-reviewer/workspace/target_journal_editor_check.md	limitation schematic	agents/06-figures/workspace/figures/Fig5_context_sensitivity.png	06-figures

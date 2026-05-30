@@ -1,0 +1,25 @@
+[2026-05-29T12:24:52.744286+00:00] MJR-001 platform/series sensitivity started
+[2026-05-29T12:24:52.745006+00:00] python=D:\cs2\tools\python\python.exe
+[2026-05-29T12:24:52.745006+00:00] python_version=3.10.11 pandas=2.3.3 numpy=2.2.6 scipy=1.15.3 anndata=0.11.4
+[2026-05-29T12:24:52.745511+00:00] input_h5ad=D:\cs1\runs\cs1-paper-factory\run_20260529_095727\05-analysis\workspace\processed_data\gse157007_qc_annotated_common_genes.h5ad exists=True size=919629012
+[2026-05-29T12:25:07.721875+00:00] MJR-001 platform/series sensitivity started
+[2026-05-29T12:25:07.721875+00:00] python=D:\cs2\tools\python\python.exe
+[2026-05-29T12:25:07.722880+00:00] python_version=3.10.11 pandas=2.3.3 numpy=2.2.6 scipy=1.15.3 anndata=0.11.4
+[2026-05-29T12:25:07.722880+00:00] input_h5ad=D:\cs1\runs\cs1-paper-factory\run_20260529_095727\05-analysis\workspace\processed_data\gse157007_qc_annotated_common_genes.h5ad exists=True size=919629012
+[2026-05-29T12:25:13.030706+00:00] eligible F-series donors: [{"analysis_group":"frail","platform_series":"F","n":5},{"analysis_group":"healthy_old_non_frail","platform_series":"F","n":3}]
+[2026-05-29T12:26:16.622248+00:00] closure={"issue_id": "MJR-001", "analysis": "F-series-only donor pseudobulk sensitivity", "input_h5ad": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\05-analysis\\workspace\\processed_data\\gse157007_qc_annotated_common_genes.h5ad", "eligible_frail_donors": 5, "eligible_healthy_old_non_frail_F_donors": 3, "monocyte_cd14_retained_adj_p_lt_0_05": 0, "monocyte_cd14_min_adj_p_value_retained": 0.19237929374939586, "interpretation": "positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity", "runtime_seconds": 68.9}
+[2026-05-29T12:26:16.622805+00:00] MJR-001 platform/series sensitivity complete
+[2026-05-29T13:32:33.821917+00:00] MJR-001 platform/series sensitivity started
+[2026-05-29T13:32:33.821917+00:00] python=D:\cs2\tools\python\python.exe
+[2026-05-29T13:32:33.821917+00:00] python_version=3.10.11 pandas=2.3.3 numpy=2.2.6 scipy=1.15.3 anndata=0.11.4
+[2026-05-29T13:32:33.821917+00:00] input_h5ad=D:\cs1\runs\cs1-paper-factory\run_20260529_095727\agents\05-analysis\workspace\processed_data\gse157007_qc_annotated_common_genes.h5ad exists=True size=919629012
+[2026-05-29T13:32:40.333956+00:00] eligible F-series donors: [{"analysis_group":"frail","platform_series":"F","n":5},{"analysis_group":"healthy_old_non_frail","platform_series":"F","n":3}]
+[2026-05-29T13:33:48.158842+00:00] closure={"issue_id": "MJR-001", "analysis": "F-series-only donor pseudobulk sensitivity", "input_h5ad": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\05-analysis\\workspace\\processed_data\\gse157007_qc_annotated_common_genes.h5ad", "eligible_frail_donors": 5, "eligible_healthy_old_non_frail_F_donors": 3, "monocyte_cd14_retained_adj_p_lt_0_05": 0, "monocyte_cd14_min_adj_p_value_retained": 0.19237929374939586, "interpretation": "positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity", "runtime_seconds": 74.34}
+[2026-05-29T13:33:48.158842+00:00] MJR-001 platform/series sensitivity complete
+[2026-05-29T14:08:23.407744+00:00] MJR-001 platform/series sensitivity started
+[2026-05-29T14:08:23.408749+00:00] python=D:\cs2\tools\python\python.exe
+[2026-05-29T14:08:23.408749+00:00] python_version=3.10.11 pandas=2.3.3 numpy=2.2.6 scipy=1.15.3 anndata=0.11.4
+[2026-05-29T14:08:23.408749+00:00] input_h5ad=D:\cs1\runs\cs1-paper-factory\run_20260529_095727\agents\05-analysis\workspace\processed_data\gse157007_qc_annotated_common_genes.h5ad exists=True size=919629012
+[2026-05-29T14:08:29.023155+00:00] eligible F-series donors: [{"analysis_group":"frail","platform_series":"F","n":5},{"analysis_group":"healthy_old_non_frail","platform_series":"F","n":3}]
+[2026-05-29T14:09:36.554940+00:00] closure={"issue_id": "MJR-001", "analysis": "F-series-only donor pseudobulk sensitivity", "input_h5ad": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\05-analysis\\workspace\\processed_data\\gse157007_qc_annotated_common_genes.h5ad", "eligible_frail_donors": 5, "eligible_healthy_old_non_frail_F_donors": 3, "monocyte_cd14_retained_adj_p_lt_0_05": 0, "monocyte_cd14_min_adj_p_value_retained": 0.19237929374939586, "interpretation": "positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity", "runtime_seconds": 73.15}
+[2026-05-29T14:09:36.554940+00:00] MJR-001 platform/series sensitivity complete

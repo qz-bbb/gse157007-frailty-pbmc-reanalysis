@@ -1,0 +1,10 @@
+cell_type	contrast	n_frail	n_control	mean_diff	p_value	test	adj_p_value_bh
+B	frail_vs_healthy_old_F_series_only	5	3	0.03524407977257549	0.14285714285714285	Mann-Whitney U donor fractions	0.32142857142857145
+CD4_T	frail_vs_healthy_old_F_series_only	5	3	-0.05879041287914105	0.7857142857142857	Mann-Whitney U donor fractions	1.0
+CD8_T	frail_vs_healthy_old_F_series_only	5	3	0.007542749205263974	1.0	Mann-Whitney U donor fractions	1.0
+DC	frail_vs_healthy_old_F_series_only	5	3	0.019257354641665378	0.25	Mann-Whitney U donor fractions	0.44999999999999996
+Monocyte_CD14	frail_vs_healthy_old_F_series_only	5	3	0.0405151954943998	1.0	Mann-Whitney U donor fractions	1.0
+Monocyte_FCGR3A	frail_vs_healthy_old_F_series_only	5	3	-0.01109801039259121	0.07142857142857142	Mann-Whitney U donor fractions	0.21428571428571427
+NK	frail_vs_healthy_old_F_series_only	5	3	-0.0012014206551088646	1.0	Mann-Whitney U donor fractions	1.0
+Plasma	frail_vs_healthy_old_F_series_only	5	3	0.006606596624872793	0.07142857142857142	Mann-Whitney U donor fractions	0.21428571428571427
+Platelet	frail_vs_healthy_old_F_series_only	5	3	-0.03807613181193631	0.03571428571428571	Mann-Whitney U donor fractions	0.21428571428571427

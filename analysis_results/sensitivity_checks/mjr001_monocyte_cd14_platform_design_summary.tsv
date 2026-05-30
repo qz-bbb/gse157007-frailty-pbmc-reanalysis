@@ -1,0 +1,4 @@
+analysis_group	platform_series	donors	total_cells	median_cells_per_donor	median_library_size
+frail	F	5	3791	386.0	2772427.0
+healthy_old_non_frail	F	3	2697	959.0	5312362.0
+healthy_old_non_frail	OH	3	3606	1237.0	5081321.0
