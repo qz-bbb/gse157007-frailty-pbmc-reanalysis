@@ -1,0 +1,7 @@
+abstract_claim	body_support	evidence_artifact	status
+Frailty and aging overlap but are not identical; GSE157007 enables reanalysis	Introduction paragraphs 1-2; Luo2022	primary source evidence and blueprint	Supported
+17 donors, 134683 QC-pass cells, 33694 common genes	Results provenance paragraph	analysis_report.md; qc summaries	Supported
+Primary contrast frail n=5 vs healthy-old/non-frail n=6	Methods labels; Results provenance	donor_group_lock.tsv	Supported
+No BH-significant composition tests	Results composition	composition_differential.tsv	Supported
+Mixed-series Monocyte_CD14 rows not robust in F-series sensitivity	Results transcription; Discussion	F-series sensitivity report; mjr001_f_series_summary.tsv	Supported
+TCR descriptive context	Results TCR	clonotype_diversity_by_donor.tsv	Supported descriptive

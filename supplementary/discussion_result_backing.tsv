@@ -1,0 +1,6 @@
+discussion_interpretation	result_or_limitation_support	evidence_artifact	status
+Main contribution is transparent corrected-label donor-aware reanalysis	Methods + Results provenance	paper_blueprint.md; input_manifest.tsv; donor_group_lock.tsv	Supported
+Composition does not support strong claims	Results composition	composition_differential.tsv	Supported
+Monocyte_CD14 finding cannot be central	Results transcription	F-series sensitivity report; mjr001_closure_summary.json	Supported limitation
+TCR summaries are descriptive not mechanistic	Results TCR	clonotype_diversity_by_donor.tsv; tcr_parse_summary.tsv	Supported limitation
+Platform nesting changes claim strength	Results platform; Limitations	platform_sensitivity.tsv; F-series sensitivity report	Supported limitation

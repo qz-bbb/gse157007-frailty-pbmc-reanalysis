@@ -1,0 +1,196 @@
+{
+  "generated_by": "public_reanalysis_package_builder",
+  "study_id": "gse157007_frailty_pbmc_reanalysis",
+  "scope": "submission_package",
+  "status": "complete",
+  "generated_at_utc": "2026-05-30T10:00:41Z",
+  "public_repository": "https://github.com/qz-bbb/gse157007-frailty-pbmc-reanalysis",
+  "files": [
+    {
+      "relative_path": "checklists/submission_checklist.md",
+      "size_bytes": 1747,
+      "sha256": "d7a3e940d624d3fb41c0142a2b476e068fe811be3c6aa221605a7ac554eaa9e5"
+    },
+    {
+      "relative_path": "cover_letter/cover_letter.md",
+      "size_bytes": 1509,
+      "sha256": "198ae4a88bfd5806d7540e59643baa95f11b912b1a73fbdd018eb85b9c40387e"
+    },
+    {
+      "relative_path": "figures/Fig1_dataset_qc.png",
+      "size_bytes": 281459,
+      "sha256": "a1b10d9851da804c128a69ef7563cdcb9f7b1512f93a58a0cf4762161039814b"
+    },
+    {
+      "relative_path": "figures/Fig2_annotation_composition.png",
+      "size_bytes": 295876,
+      "sha256": "12ea28544728049e7d46519742e3927777a3be42c73243f2dc3fd6daa60f4844"
+    },
+    {
+      "relative_path": "figures/Fig3_transcription_sensitivity.png",
+      "size_bytes": 343024,
+      "sha256": "06489b359fbf5164bcd06982f0a498292765460ddddee93eff1175d37828419c"
+    },
+    {
+      "relative_path": "figures/Fig4_tcr_diversity.png",
+      "size_bytes": 223728,
+      "sha256": "4b190c2b97d910bfb12a65fc45118849a52052b4a87c50c834996830c5c4fb05"
+    },
+    {
+      "relative_path": "figures/Fig5_context_sensitivity.png",
+      "size_bytes": 386393,
+      "sha256": "7a0a2978dcb0b33c65e417571eabb594ab00e29f37a2e313bae81bddfe6134c7"
+    },
+    {
+      "relative_path": "manuscript/main_manuscript.md",
+      "size_bytes": 24370,
+      "sha256": "4ab23cf8824434910cd240162e39b6584aede2fc384f77b379791fbfa66e3448"
+    },
+    {
+      "relative_path": "manuscript/main_text_with_fig_legends.md",
+      "size_bytes": 23997,
+      "sha256": "7041fb411744bf5baf4e90645fcb2209921a9f680bf8cd5861992bd32982fe7a"
+    },
+    {
+      "relative_path": "manuscript/manuscript_body.md",
+      "size_bytes": 23997,
+      "sha256": "7041fb411744bf5baf4e90645fcb2209921a9f680bf8cd5861992bd32982fe7a"
+    },
+    {
+      "relative_path": "manuscript/manuscript_full.md",
+      "size_bytes": 24370,
+      "sha256": "4ab23cf8824434910cd240162e39b6584aede2fc384f77b379791fbfa66e3448"
+    },
+    {
+      "relative_path": "manuscript/reference_list.bib",
+      "size_bytes": 2053,
+      "sha256": "b815d9071295b9058b144bfdd061f91e9079892f9d87c4fd7ff0cf27456fc475"
+    },
+    {
+      "relative_path": "manuscript/title_page.md",
+      "size_bytes": 798,
+      "sha256": "80be0bd52a6b7ddb579c5503d7fbb4833fc6a13fcd05dccf786566f14ef762e4"
+    },
+    {
+      "relative_path": "statements/code_availability.md",
+      "size_bytes": 326,
+      "sha256": "906aea8c3ab66de5efac88fe053c197c34b9095eb382855a449c131462c546d5"
+    },
+    {
+      "relative_path": "statements/data_availability.md",
+      "size_bytes": 478,
+      "sha256": "f9672644f3b333914e91577af5df9e4bf44ac9cbe9e2af1cfba61ee58d072f1b"
+    },
+    {
+      "relative_path": "statements/ethics.md",
+      "size_bytes": 1064,
+      "sha256": "b41459f24f6bdc0658fcffd281d17dc02a16768aa1268ddbdc290136c04d3638"
+    },
+    {
+      "relative_path": "statements/funding_conflicts_authors.md",
+      "size_bytes": 753,
+      "sha256": "286ebbd2e6ce0e9920c561cb4762dcf2ebe456280e5b3217f9443b17d1e85fc4"
+    },
+    {
+      "relative_path": "statements/source_ethics_evidence.md",
+      "size_bytes": 1511,
+      "sha256": "ce4607c49c07975ad92d8e581213a7cc6a298716dcd4de2175165c4a6be0106a"
+    },
+    {
+      "relative_path": "statements/submission_statements.md",
+      "size_bytes": 2004,
+      "sha256": "e98ff13c4875c3f5658d2391f27cad0c1e0329d2f9c50bbd2ec81891cb932a0d"
+    },
+    {
+      "relative_path": "supplementary/abstract_body_consistency.tsv",
+      "size_bytes": 823,
+      "sha256": "238399b4e3921d39fc1dbdf2e50a19799d0ad2378bb9432465db11bcb9e49fc0"
+    },
+    {
+      "relative_path": "supplementary/analysis_manifest.yaml",
+      "size_bytes": 2773,
+      "sha256": "4629fca5746bbd9d0c4065899dae561b0b8beda82ab54144fd7773ab22be6c78"
+    },
+    {
+      "relative_path": "supplementary/analysis_report.md",
+      "size_bytes": 1391,
+      "sha256": "1ddecefbb8682b6b1be9ac472944582b05bb3e4258ff1d5f87c2bece45f4d877"
+    },
+    {
+      "relative_path": "supplementary/composition_differential.tsv",
+      "size_bytes": 1548,
+      "sha256": "98ec7207da6b5a1cb733f8d28e90d3b38efb349175e99e45a9a114bd9aa86db0"
+    },
+    {
+      "relative_path": "supplementary/de_by_celltype.tsv",
+      "size_bytes": 533041,
+      "sha256": "da1dc49bb18c33adbbd308f3f558dd124753097ff4e0de398cd4328a9f765f53"
+    },
+    {
+      "relative_path": "supplementary/discussion_result_backing.tsv",
+      "size_bytes": 780,
+      "sha256": "facffee9d3c93a48502dc8b3c10cc81c1deea7313b0a753febf6ec5c68556172"
+    },
+    {
+      "relative_path": "supplementary/evidence_chain.tsv",
+      "size_bytes": 835,
+      "sha256": "da6f9611415f00b8103b466494b1402f086847341a4d5f7a481e55276c7bc07b"
+    },
+    {
+      "relative_path": "supplementary/figure_callout_contract.yaml",
+      "size_bytes": 4660,
+      "sha256": "91face780b357392a12b83ba2ebd4d12818915da8b070a98a32c3ee88a409374"
+    },
+    {
+      "relative_path": "supplementary/figure_integrity_report.md",
+      "size_bytes": 1702,
+      "sha256": "53cf3630314e45d8823b812e1c730a8aa954c3e94dc04e2dbfeeb3142eeb7a11"
+    },
+    {
+      "relative_path": "supplementary/figure_manifest.yaml",
+      "size_bytes": 15346,
+      "sha256": "df4fe9b863662ede03fd6b4e2f99d8acf13788bc8a610fff446702c5e46c6bbe"
+    },
+    {
+      "relative_path": "supplementary/mjr001_f_series_summary.tsv",
+      "size_bytes": 579,
+      "sha256": "eb49797387a1b5b7ca31cd8761000cace16289cb0023159e3571a07b182a131a"
+    },
+    {
+      "relative_path": "supplementary/mjr007_reference_citation_closure.md",
+      "size_bytes": 615,
+      "sha256": "b1bf00ada2e74714780781b13bdb98acd13965de0101efb2c3ca0980243d3c4f"
+    },
+    {
+      "relative_path": "supplementary/mjr008_abstract_citation_closure.md",
+      "size_bytes": 442,
+      "sha256": "23839e7204da4d6505a2c7b6f104fcd4555e57f423420724ceb2f2f30f7b0034"
+    },
+    {
+      "relative_path": "supplementary/platform_sensitivity.tsv",
+      "size_bytes": 193,
+      "sha256": "c1494bc955943cfe2ab4165a99bb2bfe700eb881e014b881eff0f12cde2dd3c5"
+    },
+    {
+      "relative_path": "supplementary/reference_list.bib",
+      "size_bytes": 2053,
+      "sha256": "b815d9071295b9058b144bfdd061f91e9079892f9d87c4fd7ff0cf27456fc475"
+    },
+    {
+      "relative_path": "supplementary/reference_verification.tsv",
+      "size_bytes": 1413,
+      "sha256": "cb14b5567bb99b5740f3fc13c75f7a3bd59635af1ed116970bb55f4ca79faf99"
+    },
+    {
+      "relative_path": "supplementary/section_claim_map.tsv",
+      "size_bytes": 1743,
+      "sha256": "dc2751e010ac307226c30da28097a3ab738d2758901f30aab271f3bef4aa1683"
+    },
+    {
+      "relative_path": "supplementary/tcr_parse_summary.tsv",
+      "size_bytes": 2970,
+      "sha256": "1ea804cc967feee8273e64e93567cb88bc9115e9d0e1af6967441bb28b3363b8"
+    }
+  ],
+  "file_count": 37
+}

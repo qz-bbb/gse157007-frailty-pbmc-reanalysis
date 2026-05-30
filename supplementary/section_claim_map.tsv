@@ -1,0 +1,13 @@
+section	claim	evidence_id	source_artifact	status
+Abstract	Background: GSE157007 enables reanalysis	C1/Luo2022	01-search verification_report.tsv; primary_gse157007_luo2022_evidence.json	Supported
+Abstract	134,683 QC-pass cells, 17 donors, 33,694 genes	C3	analysis report; qc/cell_qc_summary.tsv; qc/qc_by_sample.tsv	Supported
+Abstract	composition tests no BH-significant differences	C5	statistical_results/composition_differential.tsv	Supported
+Abstract	Monocyte_CD14 signal not robust to F-series sensitivity	C6/F-series-only sensitivity	F-series sensitivity report; sensitivity_checks/mjr001_f_series_summary.tsv	Supported
+Introduction	Novelty is reproducible donor-aware reanalysis not first discovery	C12	paper_blueprint.md; Luo 2022 source evidence	Supported
+Methods	Donor is replicate; Mann-Whitney/BH from analysis workflow	C5/C6	analysis_report.md; composition_differential.tsv; de_by_celltype.tsv	Supported
+Results Fig1	Provenance/labels/QC	C1-C3	Fig1; donor group assignment table; qc files	Supported
+Results Fig2	Marker support and null composition tests	C4-C5	Fig2; celltype_marker_support.tsv; composition_differential.tsv	Supported
+Results Fig3	Exploratory transcription and negative sensitivity	C6/F-series-only sensitivity	Fig3; de_by_celltype.tsv; neat1_malat1_monocyte_check.tsv; mjr001_f_series_summary.tsv	Supported
+Results Fig4	TCR descriptive summaries	C8	Fig4; clonotype_diversity_by_donor.tsv	Supported descriptive
+Results Fig5	Platform/series imbalance constrains interpretation	C9	Fig5; platform_sensitivity.tsv; composition_sensitivity.tsv	Supported
+Discussion	No robust platform-independent monocyte claim	F-series-only sensitivity	F-series sensitivity report; closure_summary.json	Supported limitation

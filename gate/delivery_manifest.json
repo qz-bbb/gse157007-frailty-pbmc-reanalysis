@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-05-30T10:11:37Z",
+  "delivery_ready": true,
+  "paths": {
+    "submission_package": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\submission_package",
+    "package_manifest": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\submission_package\\package_manifest.json",
+    "reader_pdf": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\reader_pdf\\finished_paper.pdf",
+    "reader_manifest": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\reader_pdf\\reader_manifest.json",
+    "final_gate_report": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\10-gate\\workspace\\final_gate_report.md"
+  },
+  "public_repository": "https://github.com/qz-bbb/gse157007-frailty-pbmc-reanalysis"
+}

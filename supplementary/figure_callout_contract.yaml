@@ -1,0 +1,100 @@
+status: accepted_with_limitations
+figures:
+- figure_id: Fig1
+  file_path: supporting traceability path removed for submission
+  caption_id: Fig1_caption
+  caption_text: Figure 1. Dataset provenance, corrected donor groups, and quality-control
+    summaries. (A) Verified analysis inputs from public data archive and corrected group
+    assignments. (B) Donor counts by corrected analysis group and platform series.
+    (C) QC-pass cells by donor. (D) Donor-level QC diagnostic showing median genes
+    and mitochondrial percentage, with point size proportional to QC-pass cells.
+  intended_manuscript_callout: Results section, evidence-supported order; claims must
+    remain conservative/exploratory as captioned.
+  panels:
+  - panel_id: A
+    panel_title: Input provenance files verified
+    claim_id_or_evidence_id: C1
+  - panel_id: B
+    panel_title: Corrected donor group lock
+    claim_id_or_evidence_id: C2
+  - panel_id: C
+    panel_title: QC-pass cells by donor
+    claim_id_or_evidence_id: C3
+  - panel_id: D
+    panel_title: QC diagnostic by donor
+    claim_id_or_evidence_id: C3
+- figure_id: Fig2
+  file_path: supporting traceability path removed for submission
+  caption_id: Fig2_caption
+  caption_text: Figure 2. Cell-type annotation support and donor-level composition
+    contrast. (A) Requested canonical markers present for each annotated PBMC cell
+    type. (B) Mean donor fraction differences for frail versus healthy-old/non-frail
+    donors with BH-adjusted q-values from analysis workflow. No composition test was BH-significant.
+  intended_manuscript_callout: Results section, evidence-supported order; claims must
+    remain conservative/exploratory as captioned.
+  panels:
+  - panel_id: A
+    panel_title: Cell-type marker support
+    claim_id_or_evidence_id: C4
+  - panel_id: B
+    panel_title: Donor-level composition contrast
+    claim_id_or_evidence_id: C5
+- figure_id: Fig3
+  file_path: supporting traceability path removed for submission
+  caption_id: Fig3_caption
+  caption_text: Figure 3. Exploratory transcriptional results and platform-aware sensitivity.
+    (A) Mixed-series Monocyte_CD14 donor pseudobulk results are shown as exploratory.
+    (B) Targeted NEAT1/MALAT1 monocyte checks with BH-adjusted q-values. (C) F-series-only
+    sensitivity showed no retained BH-adjusted q<0.05 rows in Monocyte_CD14 or other
+    tested cell types; central positive pseudobulk claims must therefore be softened
+    or removed.
+  intended_manuscript_callout: Results section, evidence-supported order; claims must
+    remain conservative/exploratory as captioned.
+  panels:
+  - panel_id: A
+    panel_title: Monocyte_CD14 mixed-series pseudobulk (exploratory)
+    claim_id_or_evidence_id: C6
+  - panel_id: B
+    panel_title: Targeted NEAT1/MALAT1 monocyte check
+    claim_id_or_evidence_id: C6
+  - panel_id: C
+    panel_title: F-series-only pseudobulk sensitivity
+    claim_id_or_evidence_id: C7/MJR-001
+- figure_id: Fig4
+  file_path: supporting traceability path removed for submission
+  caption_id: Fig4_caption
+  caption_text: Figure 4. Descriptive TCR diversity summaries. (A) Donor-level Shannon
+    diversity by analysis group. (B) Unique versus expanded clonotypes by donor. (C)
+    TCR parse status summary. These panels are descriptive donor-level summaries from
+    analysis workflow.
+  intended_manuscript_callout: Results section, evidence-supported order; claims must
+    remain conservative/exploratory as captioned.
+  panels:
+  - panel_id: A
+    panel_title: Donor TCR diversity
+    claim_id_or_evidence_id: C8
+  - panel_id: B
+    panel_title: Clonotype expansion by donor
+    claim_id_or_evidence_id: C8
+  - panel_id: C
+    panel_title: TCR parse status
+    claim_id_or_evidence_id: C8
+- figure_id: Fig5
+  file_path: supporting traceability path removed for submission
+  caption_id: Fig5_caption
+  caption_text: Figure 5. Context and platform sensitivity summaries. (A) Donor counts
+    and median total cells across analysis groups. (B) Platform/series distribution
+    by analysis group. (C) F-series-only composition sensitivity effect estimates
+    with BH-adjusted q-values.
+  intended_manuscript_callout: Results section, evidence-supported order; claims must
+    remain conservative/exploratory as captioned.
+  panels:
+  - panel_id: A
+    panel_title: Age/context donor counts and median cells
+    claim_id_or_evidence_id: C9
+  - panel_id: B
+    panel_title: Platform/series balance
+    claim_id_or_evidence_id: C9
+  - panel_id: C
+    panel_title: F-series composition sensitivity
+    claim_id_or_evidence_id: C9

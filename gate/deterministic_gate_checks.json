@@ -1,0 +1,67 @@
+{
+  "generated_at_utc": "2026-05-30T10:11:37Z",
+  "summary": {
+    "agent": "10-gate",
+    "project_id": "cs1-paper-factory",
+    "run_id": "run_20260529_095727",
+    "generated_at_utc": "2026-05-30T10:11:37Z",
+    "final_verdict": "pass",
+    "delivery_ready": true,
+    "blocking_failed_count": 0,
+    "blocking_failed_ids": [],
+    "warning_count": 1,
+    "submission_package_status": "pass",
+    "reader_pdf_status": "pass",
+    "evidence_chain_status": "pass",
+    "reviewer_closure_status": "pass",
+    "target_journal": "Immunity & Ageing",
+    "public_repository": "https://github.com/qz-bbb/gse157007-frailty-pbmc-reanalysis",
+    "conditions": [
+      "Author must complete journal portal metadata/payment/editable-file conversion during submission."
+    ]
+  },
+  "checks": [
+    {
+      "id": "PACKAGE_MANIFEST",
+      "status": "PASS",
+      "evidence": "entries=37 mismatches=0 []",
+      "owner": "08-editorial",
+      "blocking": true
+    },
+    {
+      "id": "INTERNAL_LEAKAGE",
+      "status": "PASS",
+      "evidence": "leaks=0 sample=[]",
+      "owner": "08-editorial",
+      "blocking": true
+    },
+    {
+      "id": "READER_PDF",
+      "status": "PASS",
+      "evidence": "exists=True size=2409952 manifest_size=2409952 pages=86 text_layer_verified=True",
+      "owner": "08-editorial",
+      "blocking": true
+    },
+    {
+      "id": "REVIEWER_CLOSURE",
+      "status": "PASS",
+      "evidence": "status=pass verdict=pass_minor_accepted_for_gate fatal=0 major=0",
+      "owner": "09-reviewer",
+      "blocking": true
+    },
+    {
+      "id": "PIPELINE_VALIDATOR",
+      "status": "PASS",
+      "evidence": "VALIDATION PASSED: No issues found.",
+      "owner": "orchestration",
+      "blocking": true
+    },
+    {
+      "id": "PUBLIC_REPOSITORY",
+      "status": "PASS",
+      "evidence": "https://github.com/qz-bbb/gse157007-frailty-pbmc-reanalysis",
+      "owner": "main-orchestration",
+      "blocking": false
+    }
+  ]
+}

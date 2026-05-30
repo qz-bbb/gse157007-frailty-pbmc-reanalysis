@@ -1,0 +1,45 @@
+{
+  "agent": "10-gate",
+  "project_id": "cs1-paper-factory",
+  "run_id": "run_20260529_095727",
+  "timestamp_utc": "2026-05-30T10:11:37Z",
+  "status": "pass",
+  "final_verdict": "pass",
+  "delivery_ready": true,
+  "submission_package_status": "pass",
+  "reader_pdf_status": "pass",
+  "evidence_chain_status": "pass",
+  "reviewer_closure_status": "pass",
+  "delivery_paths": {
+    "submission_package": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\submission_package",
+    "package_manifest": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\submission_package\\package_manifest.json",
+    "reader_pdf": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\reader_pdf\\finished_paper.pdf",
+    "reader_manifest": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\agents\\08-editorial\\workspace\\reader_pdf\\reader_manifest.json",
+    "final_gate_report": "D:\\cs1\\runs\\cs1-paper-factory\\run_20260529_095727\\10-gate\\workspace\\final_gate_report.md"
+  },
+  "inputs_read": [
+    "08-editorial submission package",
+    "reader PDF",
+    "09-reviewer closure",
+    "pipeline validator"
+  ],
+  "outputs_written": [
+    "gate_summary.json",
+    "handoff.json",
+    "deterministic_gate_checks.json",
+    "gate_predicate_table.tsv",
+    "gate_audit_report.md",
+    "final_gate_report.md"
+  ],
+  "evidence_level_summary": "Final gate verified package manifest, leakage scan, reader PDF manifest, reviewer closure, and pipeline validator.",
+  "limitations": [
+    "Journal portal metadata/payment/editable-file conversion remains a submission-time author action."
+  ],
+  "routing_recommendation": "deliver submission package",
+  "next_action": "Prepare submission package for journal portal upload.",
+  "artifact_valid": true,
+  "data_ready": true,
+  "manuscript_ready": true,
+  "claim_ready": true,
+  "manuscript_entry_gate": true
+}

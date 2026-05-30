@@ -1,0 +1,310 @@
+source: public_reanalysis_package
+study_id: gse157007_frailty_pbmc_reanalysis
+analysis_id: gse157007_public_reanalysis
+status: accepted_with_limitations
+generated_at_utc: '2026-05-29T12:40:41.675330+00:00'
+upstream_inputs:
+  architect_figure_plan: reproducibility traceability path removed for submission
+  analysis_figure_data_map: reproducibility traceability path removed for submission
+  analysis_transfer: reproducibility traceability path removed for submission
+figures:
+- figure_id: Fig1
+  title: Dataset provenance, corrected donor groups, and QC summaries
+  output_png: reproducibility traceability path removed for submission
+  script: reproducibility traceability path removed for submission
+  panels:
+  - panel_id: A
+    panel_title: Input provenance files verified
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C1
+    plot_type: dataset provenance bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: B
+    panel_title: Corrected donor group lock
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C2
+    plot_type: stacked donor/group tile plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: C
+    panel_title: QC-pass cells by donor
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C3
+    plot_type: bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: D
+    panel_title: QC diagnostic by donor
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C3
+    plot_type: scatter plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  caption_id: Fig1_caption
+  visual_qc_status: pass
+  limitations:
+  - Small donor n; results descriptive/exploratory where stated; no new statistics
+    analysis in figure workflow.
+- figure_id: Fig2
+  title: Cell-type annotation support and donor-level composition contrast
+  output_png: reproducibility traceability path removed for submission
+  script: reproducibility traceability path removed for submission
+  panels:
+  - panel_id: A
+    panel_title: Cell-type marker support
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C4
+    plot_type: horizontal bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: B
+    panel_title: Donor-level composition contrast
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C5
+    plot_type: effect-size bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  caption_id: Fig2_caption
+  visual_qc_status: pass
+  limitations:
+  - Small donor n; results descriptive/exploratory where stated; no new statistics
+    analysis in figure workflow.
+- figure_id: Fig3
+  title: Exploratory pseudobulk transcription results and platform-aware sensitivity
+  output_png: reproducibility traceability path removed for submission
+  script: reproducibility traceability path removed for submission
+  panels:
+  - panel_id: A
+    panel_title: Monocyte_CD14 mixed-series pseudobulk (exploratory)
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C6
+    plot_type: volcano scatter
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: B
+    panel_title: Targeted NEAT1/MALAT1 monocyte check
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C6
+    plot_type: effect-size bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: C
+    panel_title: F-series-only pseudobulk sensitivity
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C7/MJR-001
+    plot_type: BH q-value summary bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  caption_id: Fig3_caption
+  visual_qc_status: pass
+  limitations:
+  - Small donor n; results descriptive/exploratory where stated; no new statistics
+    analysis in figure workflow.
+- figure_id: Fig4
+  title: Descriptive donor-level TCR diversity and parsing summaries
+  output_png: reproducibility traceability path removed for submission
+  script: reproducibility traceability path removed for submission
+  panels:
+  - panel_id: A
+    panel_title: Donor TCR diversity
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C8
+    plot_type: box/scatter summary
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: B
+    panel_title: Clonotype expansion by donor
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C8
+    plot_type: scatter plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: C
+    panel_title: TCR parse status
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C8
+    plot_type: bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  caption_id: Fig4_caption
+  visual_qc_status: pass
+  limitations:
+  - Small donor n; results descriptive/exploratory where stated; no new statistics
+    analysis in figure workflow.
+- figure_id: Fig5
+  title: Age/context and platform sensitivity summaries
+  output_png: reproducibility traceability path removed for submission
+  script: reproducibility traceability path removed for submission
+  panels:
+  - panel_id: A
+    panel_title: Age/context donor counts and median cells
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C9
+    plot_type: dual-axis bar/line plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: B
+    panel_title: Platform/series balance
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C9
+    plot_type: stacked bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  - panel_id: C
+    panel_title: F-series composition sensitivity
+    source_data: reproducibility traceability path removed for submission
+    source_result: reproducibility traceability path removed for submission
+    source_script_or_analysis_manifest_entry: reproducibility traceability path removed for submission
+    claim_id_or_evidence_id: C9
+    plot_type: effect-size bar plot
+    statistics_used: BH-adjusted p-values/effect sizes from analysis workflow where displayed;
+      descriptive counts otherwise
+    status: accepted
+  caption_id: Fig5_caption
+  visual_qc_status: pass
+  limitations:
+  - Small donor n; results descriptive/exploratory where stated; no new statistics
+    analysis in figure workflow.
+omitted_or_discrepant_panels:
+- figure_id: Fig1
+  panel_id: D
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig2
+  panel_id: B
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig2
+  panel_id: C
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig4
+  panel_id: B
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig4
+  panel_id: C
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig6
+  panel_id: A
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig6
+  panel_id: B
+  reason: Not present in analysis workflow figure_data_map.tsv; not produced to avoid unsupported
+    panel fabrication.
+- figure_id: Fig1
+  panel_id: D
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: cell_qc_summary.tsv; batch_diagnostic_summary.tsv
+  plot_type: QC scatter/batch diagnostic
+- figure_id: Fig2
+  panel_id: B
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: celltype_marker_support.tsv
+  plot_type: marker dot plot
+- figure_id: Fig2
+  panel_id: C
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: celltype_fraction_by_donor.tsv
+  plot_type: stacked donor composition barplot
+- figure_id: Fig4
+  panel_id: B
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: expanded_clonotypes.tsv
+  plot_type: clonotype expansion barplot
+- figure_id: Fig4
+  panel_id: C
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: tcr_scrna_linkage_report.tsv
+  plot_type: barcode linkage summary
+- figure_id: Fig6
+  panel_id: A
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: adt_marker_summary.tsv
+  plot_type: optional ADT marker dot plot
+- figure_id: Fig6
+  panel_id: B
+  type: architect_panel_not_mapped_by_05_analysis
+  required_analysis_output: lr_candidate_interactions.tsv or grn_candidate_regulators.tsv
+  plot_type: optional network/dot plot
+- figure_id: Fig1
+  panel_id: A
+  type: planned_output_differs_from_05_mapping
+  architect_required: input_manifest.tsv; tar_file_inventory.tsv
+  analysis_mapping: input manifest; source file inventory
+  resolution: figure workflow used analysis workflow mapping only and documented discrepancy.
+- figure_id: Fig1
+  panel_id: B
+  type: planned_output_differs_from_05_mapping
+  architect_required: donor_group_lock.tsv; metadata_discrepancies.tsv
+  analysis_mapping: donor group assignment table; processed_data/sample_file_map.tsv
+  resolution: figure workflow used analysis workflow mapping only and documented discrepancy.
+- figure_id: Fig2
+  panel_id: A
+  type: planned_output_differs_from_05_mapping
+  architect_required: annotation_confidence.tsv
+  analysis_mapping: statistical_results/celltype_marker_support.tsv; processed_data/celltype_counts_by_sample.tsv
+  resolution: figure workflow used analysis workflow mapping only and documented discrepancy.
+- figure_id: Fig3
+  panel_id: B
+  type: planned_output_differs_from_05_mapping
+  architect_required: gene_program_scores.tsv; neat1_malat1_monocyte_check.tsv
+  analysis_mapping: statistical_results/neat1_malat1_monocyte_check.tsv; statistical_results/neat1_malat1_monocyte_check.tsv
+  resolution: figure workflow used analysis workflow mapping only and documented discrepancy.
+- figure_id: Fig5
+  panel_id: B
+  type: planned_output_differs_from_05_mapping
+  architect_required: platform_sensitivity.tsv; group_contrast_sensitivity.tsv
+  analysis_mapping: sensitivity_checks/platform_sensitivity.tsv; sensitivity_checks/composition_sensitivity.tsv
+  resolution: figure workflow used analysis workflow mapping only and documented discrepancy.
+- figure_id: Fig3
+  panel_id: C
+  type: planned_output_differs_from_05_mapping
+  architect_required: pathway_enrichment_by_celltype.tsv
+  analysis_mapping: sensitivity_checks/mjr001_f_series_summary.tsv; sensitivity_checks/mjr001_f_series_de_by_celltype.tsv
+  resolution: figure workflow used analysis workflow mapping only and documented discrepancy.

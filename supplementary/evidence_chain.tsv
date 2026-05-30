@@ -1,0 +1,6 @@
+result_file	supported_claim	limitation	claim_strength
+donor group assignment table	Corrected labels support the specified donor contrast	supplementary tables absent	design
+statistical_results/composition_differential.tsv	Donor-level composition effects were estimated	small n; no BH-significant composition tests	candidate/null
+statistical_results/de_by_celltype.tsv	Original mixed-series donor pseudobulk ranks were generated	platform/series imbalance; not robust as central positive claim	exploratory
+sensitivity_checks/mjr001_f_series_summary.tsv	F-series-only sensitivity found no retained BH-significant Monocyte_CD14 pseudobulk rows	F-series healthy-old/non-frail n=3; underpowered	repair limitation/negative
+statistical_results/clonotype_diversity_by_donor.tsv	TCR donor summaries generated	no barcode linkage	descriptive

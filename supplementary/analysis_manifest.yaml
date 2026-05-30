@@ -1,0 +1,74 @@
+source: public_reanalysis_package
+study_id: gse157007_frailty_pbmc_reanalysis
+analysis_id: gse157007_public_reanalysis
+status: complete
+random_seed: 20260529
+command: "reproducibility traceability path removed for submission reproducibility traceability path removed for submission
+replicate_unit: donor
+software_versions:
+  python: "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]"
+  scanpy: "1.11.5"
+  anndata: "0.11.4"
+  numpy: "2.2.6"
+  pandas: "2.3.3"
+modules:
+  - id: M0
+    status: COMPLETE
+  - id: M1
+    status: COMPLETE
+  - id: M2
+    status: COMPLETE
+  - id: M3
+    status: COMPLETE
+  - id: M4
+    status: COMPLETE
+  - id: M5
+    status: COMPLETE
+  - id: M6
+    status: COMPLETE
+  - id: M7
+    status: SKIPPED_WITH_RATIONALE
+  - id: M8
+    status: SKIPPED_WITH_RATIONALE
+
+
+mjr001_repair:
+  status: COMPLETE
+  timestamp_utc: "2026-05-29T14:10:42+00:00"
+  issue_id: MJR-001
+  command: "reproducibility traceability path removed for submission reproducibility traceability path removed for submission
+  input:
+    - "reproducibility traceability path removed for submission
+  results:
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+    - "reproducibility traceability path removed for submission
+  software_versions:
+    python_executable: "reproducibility traceability path removed for submission
+    python: "3.10.11"
+    pandas: "2.3.3"
+    numpy: "2.2.6"
+    scipy: "1.15.3"
+    anndata: "0.11.4"
+  parameters:
+    replicate_unit: donor
+    subset: "platform_series == F and analysis_group in [frail, healthy_old_non_frail]"
+    min_cells_per_donor_celltype: 20
+    normalization: "donor pseudobulk log2(CPM+1)"
+    test: "two-sided Mann-Whitney U"
+    multiple_testing: "Benjamini-Hochberg FDR within cell type"
+  result_summary:
+    eligible_frail_donors: 5
+    eligible_healthy_old_non_frail_F_donors: 3
+    monocyte_cd14_retained_adj_p_lt_0_05: 0
+    monocyte_cd14_min_adj_p_value_retained: 0.1923792937493958
+    conclusion: "Original positive Monocyte_CD14 pseudobulk signal does not survive BH-adjusted F-series-only sensitivity; retain only as exploratory."
+  verification_output:
+    - "reproducibility traceability path removed for submission
+  runtime_seconds_last_run: 73.15
